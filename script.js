@@ -8,6 +8,15 @@ if (window.location.pathname.endsWith('publications.html')) {
 const header = document.querySelector('.site-header');
 const toggle = document.querySelector('.menu-toggle');
 const links = document.querySelector('.nav-links');
+
+if (links) {
+  const oldJoinLink = links.querySelector('a[href="join.html"]');
+  if (oldJoinLink) {
+    oldJoinLink.href = 'news.html';
+    oldJoinLink.textContent = 'News';
+  }
+}
+
 if (header && !header.classList.contains('light-page')) {
   const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 36);
   onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
