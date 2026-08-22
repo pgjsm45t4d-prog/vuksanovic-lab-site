@@ -1,3 +1,8 @@
+const mobileStyles = document.createElement('link');
+mobileStyles.rel = 'stylesheet';
+mobileStyles.href = 'mobile.css';
+document.head.appendChild(mobileStyles);
+
 if (window.location.pathname.endsWith('publications.html')) {
   const pubStyles = document.createElement('link');
   pubStyles.rel = 'stylesheet';
