@@ -4,10 +4,6 @@ body.home-page .home-hero { height:100dvh; min-height:100dvh; }
 body.home-page .hero::after { display:none; }
 body.home-page .hero-inner { padding:110px 0 72px; }
 body.home-page .hero-bg { transform:none; }
-body.home-page .glycan-v{position:relative;display:inline-block;color:inherit}
-body.home-page .v-letter{position:relative;z-index:1}
-body.home-page .glycan-branch{position:absolute;width:.46em;height:.36em;left:.68em;top:-.16em;color:#f22c93;overflow:visible;filter:drop-shadow(0 0 .055em rgba(242,44,147,.35));pointer-events:none}
-body.home-page .glycan-branch circle{fill:#f22c93;stroke:#090b35;stroke-width:1.6}
 @media (max-height:700px) and (min-width:861px){
   body.home-page .hero-inner{padding:96px 0 48px}
   body.home-page .hero h1{font-size:clamp(3.6rem,8vw,6.8rem)}
@@ -30,7 +26,6 @@ body.home-page .glycan-branch circle{fill:#f22c93;stroke:#090b35;stroke-width:1.
   body.home-page .eyebrow{font-size:.68rem;letter-spacing:.16em;margin-bottom:.85rem}
   body.home-page .hero h1{font-size:clamp(3rem,13.8vw,4.25rem);line-height:.9;letter-spacing:-.045em;max-width:100%}
   body.home-page .hero-subtitle{font-size:clamp(1.05rem,5vw,1.35rem);line-height:1.2;margin-top:1.15rem;max-width:19rem}
-  body.home-page .glycan-branch{width:.43em;height:.34em;left:.66em;top:-.13em}
 }
 @media (max-width:390px){
   body.home-page .hero-inner{width:calc(100% - 32px)}
