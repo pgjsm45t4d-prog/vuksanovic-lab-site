@@ -1,0 +1,19 @@
+html, body.home-page { height:100%; overflow:hidden; background:#090b35; }
+body.home-page main { height:100svh; overflow:hidden; }
+body.home-page .home-hero { height:100svh; min-height:100svh; }
+body.home-page .hero::after { display:none; }
+body.home-page .hero-inner { padding:110px 0 72px; }
+body.home-page .hero-bg { transform:none; }
+@media (max-height:700px) and (min-width:861px){
+  body.home-page .hero-inner{padding:96px 0 48px}
+  body.home-page .hero h1{font-size:clamp(3.6rem,8vw,6.8rem)}
+  body.home-page .hero-subtitle{margin-top:1.25rem;font-size:clamp(1.1rem,2vw,1.65rem)}
+  body.home-page .hero-meta{margin-top:.8rem;font-size:.92rem}
+  body.home-page .eyebrow{margin-bottom:.9rem}
+}
+@media (max-width:860px){
+  body.home-page .hero-inner{padding:92px 0 46px}
+  body.home-page .hero h1{font-size:clamp(3.2rem,17vw,5.8rem)}
+  body.home-page .hero-subtitle{margin-top:1.35rem}
+  body.home-page .hero-meta{margin-top:.9rem}
+}
