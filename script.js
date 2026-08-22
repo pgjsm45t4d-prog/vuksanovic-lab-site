@@ -1,3 +1,10 @@
+if (window.location.pathname.endsWith('publications.html')) {
+  const pubStyles = document.createElement('link');
+  pubStyles.rel = 'stylesheet';
+  pubStyles.href = 'publications.css';
+  document.head.appendChild(pubStyles);
+}
+
 const header = document.querySelector('.site-header');
 const toggle = document.querySelector('.menu-toggle');
 const links = document.querySelector('.nav-links');
