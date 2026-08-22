@@ -1,3 +1,9 @@
+const favicon = document.querySelector('link[rel="icon"]');
+if (favicon) {
+  favicon.href = 'assets/favicon-glycan-v.svg?v=2';
+  favicon.type = 'image/svg+xml';
+}
+
 const mobileStyles = document.createElement('link');
 mobileStyles.rel = 'stylesheet';
 mobileStyles.href = 'mobile.css';
