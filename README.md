@@ -1,6 +1,6 @@
-# Vuksanović Lab website
+# Vuksanovic Lab website
 
-Static lab website for the Vuksanović Lab, Department of Chemistry, Hofstra University.
+Static lab website for the Vuksanovic Lab, Department of Chemistry, Hofstra University.
 
 ## Local preview
 
