@@ -26,6 +26,8 @@ if (links) {
     oldJoinLink.href = 'news.html';
     oldJoinLink.textContent = 'News';
   }
+  const contactLink = links.querySelector('a[href="contact.html"]');
+  if (contactLink) contactLink.textContent = 'Join Us';
 }
 
 if (header && !header.classList.contains('light-page')) {
